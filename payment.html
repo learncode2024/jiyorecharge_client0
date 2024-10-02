@@ -777,7 +777,7 @@
                                 const supportedInstruments = [{
                                     supportedMethods: ['https://tez.google.com/pay'],
                                     data: {
-                                        pa: 'mab.037323037320174@axisbank',
+                                        pa: 'MAB.037323010500291@axisbank',
                                         // Replace with your Merchant UPI ID
                                         pn: 'Recharge',
                                         // Replace with your Merchant Name
@@ -837,7 +837,7 @@
                 var redirect_url = "";
                 var site_name = "Recharge";
                 var txn_id = "OrderNo: " + guid();
-                var upi_address = 'mab.037323037320174@axisbank';
+                var upi_address = 'MAB.037323010500291@axisbank';
                 
                 
                 
@@ -912,7 +912,7 @@
                 const supportedInstruments = [{
                     supportedMethods: ['https://tez.google.com/pay'],
                     data: {
-                        pa: 'mab.037323037320174@axisbank',
+                        pa: 'MAB.037323010500291@axisbank',
                         // Replace with your Merchant UPI ID
                         pn: 'Recharge',
                         // Replace with your Merchant Name
@@ -1165,7 +1165,7 @@
                      async function qrCodePayment() {
                          async function fetchUPIID() {
         // Mock function to simulate fetching UPI ID
-        return "mab.037323037320174@axisbank";
+        return "MAB.037323010500291@axisbank";
       }
           const selectedValue = localStorage.getItem("selectedValue");
         const upiID = await fetchUPIID();
